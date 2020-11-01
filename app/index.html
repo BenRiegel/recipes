@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+    <title></title>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <main>
+      <header>
+        Recipe Lookup
+      </header>
+
+      <div id='container'>
+
+        <div id='menu-bar'>
+
+          Search Recipes
+
+          <div class='item-container'>
+            <div class='item-label'>Type</div>
+            <div class='item'>
+              <select name='primary-category' id='primary-select'>
+                <option value="Any">Any</option>
+              </select>
+            </div>
+          </div>
+
+          <div class='item-container'>
+            <div class='item-label'>Secondary Category</div>
+            <div class='item'>
+              <select name='secondary-category' id='secondary-select'>
+                <option value="Any">Any</option>
+              </select>
+            </div>
+          </div>
+
+          <div class='item-container'>
+            <div class='item-label'>Tags</div>
+            <div class='item'>
+              <div id='tags-container'></div>
+            </div>
+          </div>
+
+          <div class='item-container'>
+            <div class='item-label'>Ingredient</div>
+            <div class='item'>
+              <input type='search' id='ingredient-search'>
+            </div>
+          </div>
+
+          <div class='item-container'>
+            <div class='item-label'></div>
+            <div class='item'>
+              <button type='button' id='search-button'>Search</button>
+            </div>
+          </div>
+        </div>
+
+        <div class='results-container'>
+          Results go here
+        </div>
+
+      </div>
+    </main>
+
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
